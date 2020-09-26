@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SOOKpoiler</string>
+
+    <string name="username">apikey</string>
+    <string name="password">winJf0JO7dhUyjWQGTqYeoog6-bGLA4pDNH9iOOsXTAP</string>
+    <string name="workspace">eaaeda27-2873-4302-888a-a349f672c2df</string>
+    <string name="title_activity_map">Map</string>
+    <string name="todo_title">오늘의 할 일!</string>
+    <string name="todo">TO DO LIST!</string>
+
+    <string name="title">Copyrightⓒ2018 by cosidasu.</string>
+</resources>
