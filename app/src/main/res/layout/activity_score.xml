@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="30dp"
+    android:background="@drawable/bg_anim"
+    tools:context=".Score">
+
+
+    <Button
+        android:id="@+id/rank_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/scholar_engineering"
+        android:text="등수 예측" />
+
+    <Button
+        android:id="@+id/scholar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/scholar_none_engineering"
+        android:layout_margin="10dp"
+        android:text="장학금 예측" />
+
+</LinearLayout>

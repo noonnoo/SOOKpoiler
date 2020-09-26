@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/engineerLayout"
+    android:background="@drawable/bg_anim"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".ScholarEngineer">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="40dp"
+        android:layout_margin="30dp"
+        app:cardBackgroundColor="#30000000"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_check_black_24dp">
+
+                <EditText
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="학점"
+                    android:inputType="numberDecimal"
+                    android:textColor="#555"
+                    android:textSize="20sp" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/engineer_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#222"
+        android:background="@drawable/ripple_effect"
+        android:onClick="sch_engineer"
+        android:text="제출하기"/>
+</LinearLayout>
