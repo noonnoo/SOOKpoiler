@@ -17,16 +17,16 @@
 
 ### 화면
 ![image](https://user-images.githubusercontent.com/33820372/94335015-54adff80-0013-11eb-8ed0-58bd44c0ddbf.png)
-메인 화면
+\ > 메인 화면
 
 ![image](https://user-images.githubusercontent.com/33820372/94334979-0ef13700-0013-11eb-9d11-2758a9ae6125.png)
-챗봇 기능
+\ > 챗봇 기능
 
 ![image](https://user-images.githubusercontent.com/33820372/94334995-25978e00-0013-11eb-895d-f99e69171e72.png)
-성적 차트그리기 기능
+\ > 성적 차트그리기 기능
 
 ![image](https://user-images.githubusercontent.com/33820372/94334998-35af6d80-0013-11eb-9fcb-ddf72e23b38f.png)
-지도에서 건물 설명하기 기능
+\ > 지도에서 건물 설명하기 기능
 
 ![image](https://user-images.githubusercontent.com/33820372/94335006-452eb680-0013-11eb-8b75-346081272cb3.png)
-장학금, 성적 등수 예측 기능
+\ > 장학금, 성적 등수 예측 기능
